@@ -1,0 +1,55 @@
+/* Thẻ khung */
+article
+{
+    width: 152px;
+    height: 156px;
+    margin-right: 15px;
+    /* căn ngang */
+    float: left;
+}
+/* Thẻ khung */
+section
+{
+    width: 334px;
+}
+/* Thẻ chữ */
+a{
+   font-family: tahoma ;
+   font-weight: bold;
+   font-size: 10px;
+   text-decoration: none;
+   display: block;
+   line-height: 15px;
+   color: #555;
+   
+
+}
+/* hover di chuột lên thẻ a */
+a:hover{
+    color: orange;
+}
+/* Thẻ ảnh */
+img
+{
+    width: 152px;
+    height: 97px;
+}
+
+div
+{
+    width: 319px;
+    height: 110px;
+    margin-bottom: 15px;
+}
+div p{
+    font-size: 10px;
+    margin-top: 3px;
+}
+div a{
+    font-size: 14px;
+}
+div img{
+    float: right;
+    width: 152pxss;
+    height: 97px;
+}

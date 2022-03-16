@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+        }
+        .header {
+            margin:auto;
+        }
+        table {
+            border: 1px solid;
+            background-color: rgb(231, 235, 184);
+            border-radius: 5px;
+        }
+        h1 {
+            text-align: center;
+            color: rgb(41, 132, 148);
+            text-transform: uppercase;
+        }
+        textarea {
+            width: 352.5px;
+            resize: none;
+            height: 40px;
+            margin-bottom: -6px;
+            margin-left: -1px;
+        }
+        legend {
+            width: 136px;
+        }
+        fieldset {
+            width: 388px; 
+            border: 2px solid; 
+            border-color: rgb(136, 252, 3); 
+            position:relative;
+            top: 0;
+            left: 60px;        
+        }
+        .width-input {
+            width: 400px;
+        }
+        .SLDK-font-color {
+            font-style: italic;
+            color: rgb(179, 255, 0);
+         }
+         div {
+             display: inline-block;
+             margin-left: 26px;
+         }
+         span {
+            position:relative;
+            top: -0.1px;
+            color: rgb(16, 192, 16);           
+         }
+         td {
+            color: rgb(73, 0, 245);
+           
+         }
+         option{
+             font-weight: 500;
+         }
+         .GCT {
+              padding: 0;
+
+         }
+         .DY {
+             padding: 0;
+         }
+         .MB-XOT-center {
+            position: relative;
+            top: -2px;
+         }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>đăng ký du lịch</h1>
+        <form action="">
+            <table border="1" cellspacing="0" cellpadding="10">
+                <tr>
+                    <td >Họ và tên</td>
+                    <td> 
+                    <input required="" class="width-input" type="text" placeholder="Nhập Họ và Tên của bạn vào đây!">    
+                    </td>
+                </tr>
+                <tr>
+                    <td >Địa chỉ</td>
+                    <td> 
+                        <input placeholder="Nhập Địa chỉ của bạn vào đây!" required="" class="width-input" type="text">    
+                        </td>
+                </tr>
+                <tr>
+                    <td >Điện thoại</td>
+                    <td> 
+                        <input placeholder="Nhập Số điện thoại của bạn vào đây!" required="" class="width-input" type="text">    
+                        </td>
+                </tr>
+                <tr>
+                    <td>Khách Việt Nam</td>
+                    <td> 
+                        <input required="" type="checkbox">    
+                        </td>
+                </tr>
+<tr>
+                    <td>Chọn tour</td>
+                    <td>
+                        <select name="" >
+                            <option value="">Buôn Mê Thuộc - Gia Lai - Kontum</option>
+                            <option value="">Cần Thơ</option>
+                            <option value="">Sóc Trăng</option>
+                            <option value="">Bạc Liêu</option>
+                            <option value="">Cà phê Đèn Mờ</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phương tiện</td>
+                    <td> 
+                        <input type="radio" name="ii"> <span class="MB-XOT-center">Máy bay </span> 
+                            <input type="radio" name="ii"> <span class="MB-XOT-center"> Xe ô tô </span>
+                        </td>
+                </tr>
+                <tr >
+                    <td colspan="3"> 
+                        <fieldset class="SLDK-center">
+                            <legend class="SLDK-font-color" > Số lượng đoàn khách
+                            </legend> 
+                            <div>
+                               <span>Người lớn</span>  
+                                <input size="10" type="text">
+                               <span>Trẻ em  </span>
+                                <input size="10" type="text">
+                            </div>
+                            </fieldset>
+                    </td>
+                </tr>
+                <tr cellpadding="9">
+                    <td>Ghi chú thêm</td>
+                    <td class="GCT">
+                        <textarea style="overflow-y:scroll" name=""  cols="20" rows="2" placeholder="Nhập ghi chú vào đây!"></textarea>
+                    </td>
+                </tr>
+                <tr class="DY">
+                    <td style="text-align:center" cellpadding="0" colspan="2">
+                        <button >Đồng ý</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

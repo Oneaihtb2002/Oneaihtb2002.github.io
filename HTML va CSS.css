@@ -1,0 +1,27 @@
+ h2{
+    /* 1:màu chữ */
+    color:blue;
+    /* 2:màu nền */
+    background-color: seashell;
+}
+p{
+    /* 3:border là thẻ tạo khung */
+    border: 1px dashed black;
+    /* 4:pabdding là căn chỉnh bênh trong khung */
+    padding-left: 30px;
+    /* 5:margin là căn chỉnh bênh ngoài không */
+    margin-top: 100px ;
+    /* 6:font-size là chỉnh kích thước chữ */
+    font-size: 20px;
+    /* 7:font-family là kiểu chữ */
+    font-family: Segoe UI;
+    /* 9:font-weight: là in đậm chữ */
+    font-weight: bold;
+    /* 10:float:left; là căn ảnh sang bênh trái (chữ sang phải)*/
+    float: left;
+    /* width:  và height: là chiều rộng và chiều dài */
+    /* text-decoration: none; là ko để dấu gạch chân */
+    /* text-decoration: underline; lấy lại dấu gạch châns */
+    /* font-weight: bold; in đậm chữ giống như thẻ b */
+    
+}

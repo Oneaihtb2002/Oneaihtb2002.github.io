@@ -1,0 +1,31 @@
+.A001_DuongVien{/*Đường viền nét thẳng*/
+  border: 1px solid black; 
+  padding-left: 30px;
+  text-decoration: none;
+  line-height: ;
+}
+.A002_DuongVien{ /*Đường viền chấm liền*/
+    border: 2px dotted black;
+    padding-left: 30px;
+}
+.A003_DuongVien{ /*Đường viền rạch nối*/
+    border: 3px dashed black;
+    padding-left: 30px;
+}
+/*Các Loại Đường Viền:
+ 1. dotted ......... 
+ 2. solid  _________
+ 3. dashed ---------
+
+ Các chức năng của thẻ padding (cơ bản):
+  1. padding 30px;  => căn all lề là 30px
+  2. padding-left: 30px;  => căn lề trái 30px
+  3. padding-right: 30px;  => căn lề phải 30px
+  4. pabding-top; 30px;  => căn lề trên 30px
+  5. padding-bottom: 30px;  => cằn lề dưới 30px
+  6. padding-inline-start: 30px;  => căn lề trái tự động xuống dòng
+  7. padding-block: 30px;  => căn lề top and bottom 30px
+  8. padding-block-start: 30px;  => căn (khối) lề trên 30px
+  9. padding-block-end: 30px;  => căn (khối) lề dưới 30px
+  10.padding-inline: 30px;  => căn lề tráo và phải 30px
+*/

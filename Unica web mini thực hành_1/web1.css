@@ -1,0 +1,31 @@
+/* định đạng khung article */
+article{
+    width: 400px;
+    height: 350px;
+    background-image: url(anh3.png);
+    border: 1px solid #FF1415;
+}
+/* định dạng tiêu đề đường link */
+a{
+   color: crimson;
+   text-decoration: none;
+   font-size: 25px;
+}
+/* định dạng văn bản */
+p{
+    margin: 0;
+    padding-top: 13px;
+    color: #414141;
+
+    font-family: Arial;
+    font-size: 15px;
+}
+/* định dạng hình ảnh */
+img{
+   width: 400px;
+   border-bottom: 1px solid #FF1415;
+}
+/* định dạng khung div */
+div{
+    padding: 8px ;
+}

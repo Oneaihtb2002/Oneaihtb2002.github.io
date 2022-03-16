@@ -1,0 +1,18 @@
+
+.TieuDe{
+  text-align: center;
+  color: red;
+}
+.NoiDung{
+    text-align: center;
+    font-size: 5;
+    color: blue;
+}
+.MauNen{
+    background-color: #FFFFCC;
+}
+.DuongVien{
+    border-style: dotted;
+    border-color: red;
+    background-color: greenyellow;
+}

@@ -1,0 +1,27 @@
+Border là thẻ tạo đường viền
+LỨU Ý: chúng ta có thể kết hợp các thuộc tính lại với nhau VD: border-top-style;
+
+/* CÁC THUỘC TÍNH CỦA THẺ BORDER (cơ bản)
+  1. border: solid 2px red;  => kiểu đường viền,kích thước,màu sắc   
+  2. border-radius: 30px;  => tạo đường viền bo tròn cạnh
+  3. border-bottom: 3px solid black;  => đường viền dưới
+  4. border-top: 3px solid black;  => đường viền trên
+  5. border-left: 3px solid black;  => đường viền trái
+  6. border-right: 3px solid black;  => đường viền phải
+  7. border-color: blue;  => màu đường viền
+  8. border-width: 2px; => kích thước đường viền
+  9. border-style: solid;  => kiểu đường viền
+  10.border-bottom-right-radius: 30px;  => đường viền bo tròn góc phải dưới 30px
+  11.border-bottom-left-radius: 30px;  => đường viền bo tròn gốc trái dưới 30px
+  12.border-top-left-radius: 30px ;  => đường viền bo tròn gốc trái trên 30px
+  13.border-top-left-radius: 30px ;  => đường viền bo tròn góc phải trên 30px
+  14.border-top-color: blue;  => màu đường viền trên (blue)
+  15.border-left-color: blue;  => màu đường viền trái (blue)
+  16.border-right-color: blue;  => màu đường viền phải (blue)
+  17.border-bottom-color: blue;  => màu đường viền dưới (blue)
+  18.border-top-style: dashed;  => kiểu dử liệu của đường viền trên
+  19.border-left-style: dashed;  => kiểu dử liệu của đường viền trái
+  20.border-right-style: dashed;  => kiểu dử liệu của đường viền phải
+  21.border-bottom-style: dashed;  => kiểu dử liệu của đường viền dưới
+  22... rất nhiều thuộc tính khác
+  */

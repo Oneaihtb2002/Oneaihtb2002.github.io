@@ -1,0 +1,31 @@
+.KhungNho{
+    border: 1px solid #E9E9E9;
+    width: 325px;
+    height: 425px ;
+}
+.hinhanh{
+   width: 305px;
+   padding-top: 5px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.TieuDe{
+    
+    color: #414141;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 14px;
+    padding: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.theA{
+    text-decoration: none;
+}
+.thongtin{
+    border: 1px solid black;
+    padding-left: 10px;
+    margin-left: 10px;
+    float: left;
+
+}
